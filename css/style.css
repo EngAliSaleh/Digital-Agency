@@ -25,16 +25,13 @@
 
 
 
-a {
+a ,ul {
     text-decoration: none;
+    list-style: none;
 }
 
 img {
     max-width: 100%;
-}
-
-ul {
-    list-style: none;
 }
 
 section {
