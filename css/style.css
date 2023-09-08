@@ -75,10 +75,9 @@ header nav ul {
     display: flex;
 }
 
-header nav ul li {
+header nav ul li a {
     margin: 0 15px;
     color: var(--main-color);
-
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -395,9 +394,12 @@ footer {
     margin-top: 40px;
     font-size: 16px;
 }
-
+.footer-tabs ul li a {
+ 
+}
 .footer-tabs ul li {
     margin: 24px 0;
+    color: var(--main-color);
 }
 
 .footer-wrapper .copyright {
@@ -435,7 +437,6 @@ footer {
 /* Responsive */
 
 
-@media only screen and (min-width: 767px) and (max-width: 1200px) {}
 
 
 @media only screen and (max-width: 768px) {
